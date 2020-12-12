@@ -181,3 +181,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/module/msm_performance/parameters cpu_max_freq   0664 system system
 /sys/module/msm_performance/parameters cpu_min_freq   0664 system system
 /sys/module/msm_performance/parameters max_cpus       0664 system system
+
+# Wifi
+/sys/kernel/boot_wlan/boot_wlan         0660 wifi wifi
